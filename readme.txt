@@ -1,4 +1,14 @@
-https://code.google.com/p/phamlp/
+Based on PhamlP 3.2 at https://code.google.com/p/phamlp/
+Official Changes
+https://code.google.com/p/phamlp/wiki/ChangeLog
+
+My Addons:sass-modx-plugin.php (See http://habrahabr.ru/post/137747/)
+sass-console-convert.php (run localy)
+sass-convert.bat (short way to run localy, need edit patch to php.exe)
+To use in WebStorm use Filewatcher settings
+See http://www.jetbrains.com/phpstorm/webhelp/transpiling-sass-less-and-scss-to-css.html
+in arguments need only $FilePath/$FileName
+
 
 
 
@@ -15,7 +25,7 @@ Includes Compass (PHamlP V3.2 and greater).
 Haml
 Haml is based on one primary principle. Markup should be beautiful.
 
-Haml is a markup language that’s used to cleanly and simply describe the XHTML of any web document, without the use of inline code. It avoids the need for explicitly coding XHTML into the template, because it is actually an abstract description of the XHTML, with some code to generate dynamic content.
+Haml is a markup language thatï¿½s used to cleanly and simply describe the XHTML of any web document, without the use of inline code. It avoids the need for explicitly coding XHTML into the template, because it is actually an abstract description of the XHTML, with some code to generate dynamic content.
 
 See http://haml-lang.com for details on Haml
 
@@ -47,7 +57,7 @@ XHTML/PHP (Nested Rendering)
     </ul>
   </div>
 Sass
-Sass is a meta-language on top of CSS that’s used to describe the style of a document cleanly and structurally, with more power than flat CSS allows; keeping stylesheets powerful, manageable and DRY.
+Sass is a meta-language on top of CSS thatï¿½s used to describe the style of a document cleanly and structurally, with more power than flat CSS allows; keeping stylesheets powerful, manageable and DRY.
 
 Features
 
