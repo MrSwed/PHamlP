@@ -24,7 +24,7 @@ include_once(dirname($argv[0]).'/sass/SassParser.php');
 
 $sass = new SassParser(array(
  'cache'=>false,
- 'style'=>'expanded',
+ 'style'=>'nested',
  'vendor_properties'=>array(
   'border-radius' => array(
    '-moz-border-radius',
