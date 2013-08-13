@@ -9,3 +9,5 @@ if NOT %~1=="" (
 %php% -n -q -f "%~dp0sass-console-convert.php" %1  %2 > %log% 2>&1
 type %log%
 find /i "error" %log% >nul  && (echo Some errors. See below && exit /b 1 )
+
+exit /b 0
