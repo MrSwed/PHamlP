@@ -1,21 +1,21 @@
 PHamlP + modx snippet + local call
 
-Based on
-https://code.google.com/p/phamlp/
 =======
 Based on PhamlP 3.2 at https://code.google.com/p/phamlp/
 Official Changes
 https://code.google.com/p/phamlp/wiki/ChangeLog
 
-My Addons:sass-modx-plugin.php (See http://habrahabr.ru/post/137747/)
+My Addons: 
+sass-modx-plugin.php (See http://habrahabr.ru/post/137747/)
 sass-console-convert.php (run localy)
 sass-convert.bat (short way to run localy, need edit patch to php.exe)
-To use in WebStorm use Filewatcher settings
+
+To use in WebStorm, use FileWatcher settings
 See http://www.jetbrains.com/phpstorm/webhelp/transpiling-sass-less-and-scss-to-css.html
 in arguments need only $FilePath/$FileName
 
 
-
+========
 PHamlP
 Haml and Sass have been used in Ruby for sometime to simplify templates (Haml) and make CSS more intelligent, flexible and manageable (Sass); now they come to PHP in PHamlP.
 
